@@ -4,62 +4,160 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AAMC</title>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
-    <body>
-        <header>
-            <ul>
-                <li>Início</li>
-                <li>Transparência</li>
-                <li>Contato</li>
-            </ul>
-        </header>
-        <main>
-            <section>
-                <!-- <h2>Sobre Nós / Quem Somos</h2> -->
-                <p>A Associação dos Apicultores e Meliponicultores do Cabo de Santo Agostinho é uma instituição sem fins lucrativos responsável por representar os apicultores e meliponicultores da cidade do Cabo de Santo Agostinho.</p>
-                <img src="images/associacao_1.jpeg" alt="">
-                <img src="images/associacao_2.jpeg" alt="">
-                <img src="images/associacao_3.jpeg" alt="">
-                <img src="images/associacao_4.jpeg" alt="">
-                <img src="images/associacao_5.jpeg" alt="">
-                <img src="images/associacao_6.jpeg" alt="">
-                <img src="images/associacao_7.jpeg" alt="">
-                <img src="images/associacao_8.jpeg" alt="">
-            </section>
-            <section>
-                <h2>Nossos Produtos</h2>
-                <img src="images/produtos_1.jpeg" alt="Mel do Litoral">
-                <img src="images/produtos_2.jpeg" alt="Mel do Litoral">
-                <img src="images/produtos_3.jpeg" alt="Mel do Litoral">
-                <p>Mel do Litoral<br>Adoçando a vida das pessoas</p>
-            </section>
-            <section>
-                <h2>Transparência</h2>
-                <p>Como uma instituição privada sem fins lucrativos a AAMC se compromete com a publicidade e transparência de todos os seus atos.</p>
-                <ul>
-                    <li>Ata de eleição</li>
-                    <li>Nosso Estatuto</li>
-                    <li>Regulamento de Compras</li>
-                    <li>Mostrar mais</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Contatos Imediatos</h2>
-            </section>
-        </main>
-        <footer>
-            <p>AAMC - Associação dos Apicultores e Meliponicultores do Cabo de Santo Agostinho - PE
-                <br><strong>CNPJ:</strong> 08.927.444/0001-89
-                <br>IE: 051527634
-                <br>Endereço: Engenho Novo, Loteamento Diper/Fidem, Lote 96 B, Cabo de Santo Agostinho - PE, CEP 54515-070
-            </p>
-            <div>
-                <h3>Contato</h3>
-                <p>E-mail: a.a.m.c.meldolitoral@gmail.com
-                    <br>Telefone: (81) 97502-1410
-                </p>
-            </div>
-            <p></p>
-        </footer>
+    <body class="font-sans">
+		<header class="sticky top-0 max-h-32 bg-orange-400 p-4">
+			<ul class="flex gap-4 justify-end">
+				<li>Início</li>
+				<li>Transparência</li>
+				<li>Contato</li>
+			</ul>
+		</header>
+        <div class="m-auto max-w-7xl py-4">
+			
+			<main>
+				<section>
+					<!-- <h2>Sobre Nós / Quem Somos</h2> -->
+					<p>A Associação dos Apicultores e Meliponicultores do Cabo de Santo Agostinho é uma instituição sem fins lucrativos responsável por representar os apicultores e meliponicultores da cidade do Cabo de Santo Agostinho.</p>
+					<img src="images/associacao_1.jpeg" alt="">
+					
+					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+						<img src="images/associacao_2.jpeg" alt="" class="max-w-xl m-auto">
+						<div class="grow bg-red-300 p-2">
+							<h3>Lorem Ipsum</h3>
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet lorem sed eros posuere tempus posuere eu nibh. Morbi semper, lectus ut faucibus lacinia, 
+							turpis enim fringilla magna, non tempor lectus felis nec sapien. Aliquam ut odio quis est ultrices tincidunt. Donec accumsan, quam ut consequat imperdiet, 
+							justo tellus ullamcorper justo, in posuere leo enim sit amet elit. Pellentesque velit velit, ornare in arcu vel, mollis eleifend nulla. Sed iaculis sapien 
+							vitae consectetur sollicitudin. Proin sit amet ligula sapien. Pellentesque bibendum eros tortor, eu posuere neque condimentum ac. Integer venenatis in lorem 
+							quis scelerisque. Maecenas feugiat justo molestie orci venenatis, eu ultrices est tempor. Vivamus metus justo, ornare eget suscipit eu, vestibulum quis felis. 
+							Quisque elementum lacus nibh. 
+							</p>
+						</div>
+					</div>
+					
+					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+						<img src="images/associacao_3.jpeg" alt="" class="max-w-xl m-auto">
+						<div class="grow bg-red-300 p-2 md:-order-1">
+							<h3>Lorem Ipsum</h3>
+							<p>
+							Sed euismod accumsan tincidunt. In hac habitasse platea dictumst. Nulla cursus sollicitudin quam ac commodo. Morbi tempus, sem quis fringilla semper, sem tortor
+							auctor nibh, a ullamcorper justo erat id ex. Sed et elementum tellus. Phasellus nec turpis libero. Sed quis est dapibus augue volutpat ultrices. Nam ornare leo
+							ac ante faucibus, viverra tempus elit ullamcorper. Phasellus eget velit quis nulla luctus dignissim. Fusce maximus ipsum orci, id dignissim tortor rhoncus ac.
+							Ut ut pulvinar odio. 
+							</p>
+						</div>
+					</div>
+					
+					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+						<img src="images/associacao_4.jpeg" alt="" class="max-w-xl m-auto">
+						<div class="grow bg-red-300 p-2">
+							<h3>Lorem Ipsum</h3>
+							<p>
+							Nunc et condimentum neque, non tempus orci. Praesent sit amet magna aliquam, convallis ligula non, semper velit. Sed in velit vitae tellus commodo semper ut
+							vel nibh. Donec mauris lacus, tincidunt id tortor sit amet, accumsan venenatis velit. Ut sit amet nulla non arcu facilisis tempus. Sed turpis lectus, efficitur
+							id leo ac, vestibulum euismod dui. Suspendisse potenti. Aliquam sit amet viverra erat, quis mattis justo. Curabitur consequat viverra diam id accumsan. Aliquam
+							erat volutpat. 
+							</p>
+						</div>
+					</div>
+					
+					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+						<img src="images/associacao_5.jpeg" alt="" class="max-w-xl m-auto">
+						<div class="grow bg-red-300 p-2 md:-order-1">
+							<h3>Lorem Ipsum</h3>
+							<p>
+							Nullam sollicitudin aliquet risus eu imperdiet. Praesent gravida tempus orci nec pellentesque. Proin condimentum orci sed nibh dapibus, vitae gravida mi
+							pellentesque. Suspendisse ullamcorper viverra risus, in tristique erat pretium malesuada. In hac habitasse platea dictumst. Proin sit amet erat dapibus, 
+							placerat nisi et, facilisis nisl. Nullam aliquam eget massa id tincidunt. Nunc purus metus, faucibus a est at, tempor venenatis sapien. 
+							</p>
+						</div>
+					</div>
+					
+					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+						<img src="images/associacao_6.jpeg" alt="" class="max-w-xl m-auto">
+						<div class="grow bg-red-300 p-2">
+							<h3>Lorem Ipsum</h3>
+							<p>
+							Integer nibh libero, dapibus tempus vestibulum ac, tincidunt vitae odio. Suspendisse venenatis enim sit amet accumsan rutrum. Fusce facilisis congue enim, 
+							vel lobortis turpis mollis vitae. Phasellus porttitor molestie sodales. Maecenas fermentum ipsum risus, ut ornare ipsum congue malesuada. Nulla et mollis leo. 
+							Donec pharetra felis euismod aliquam euismod. Proin volutpat, libero non fermentum scelerisque, erat libero venenatis eros, a egestas neque nulla nec lectus. 
+							Maecenas sodales ullamcorper elit eget posuere. 
+							</p>
+						</div>
+					</div>
+					
+					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+						<img src="images/associacao_7.jpeg" alt="" class="max-w-xl m-auto">
+						<div class="grow bg-red-300 p-2 md:-order-1">
+							<h3>Lorem Ipsum</h3>
+							<p>
+							Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras sodales pretium arcu quis ultricies. Cras in volutpat elit, 
+							sit amet facilisis arcu. Curabitur feugiat tristique ante, vel lacinia est fermentum a. Donec quis nisl tempor, feugiat lorem a, pharetra leo. Vestibulum 
+							pharetra lacinia pretium. Fusce ullamcorper nisi risus, non imperdiet sem fermentum in. Suspendisse augue dui, finibus nec luctus ut, efficitur sit amet felis. 
+							Sed ac bibendum mauris. Nullam tincidunt, enim a tristique molestie, mi ante porta eros, at cursus sem ligula quis sapien. Praesent massa odio, 
+							accumsan vel elit sit amet, facilisis convallis odio. Praesent mollis quis mauris vitae vehicula. 
+							</p>
+						</div>
+					</div>
+					
+					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+						<img src="images/associacao_8.jpeg" alt="" class="max-w-xl m-auto">
+						<div class="grow bg-red-300 p-2">
+							<h3>Lorem Ipsum</h3>
+							<p>
+							Sed nec ornare magna. Nam sollicitudin a ipsum vel fermentum. Nullam tempor eu sapien non volutpat. Nulla at leo quis lectus mollis efficitur. 
+							Nulla in eros non sem luctus malesuada non sed erat. Phasellus sagittis mattis lobortis. Phasellus fermentum urna nec massa ultricies, in viverra nunc 
+							imperdiet. Cras maximus, est id auctor bibendum, quam mauris placerat libero, et bibendum leo nulla quis enim. Donec commodo urna non lobortis rutrum. 
+							Cras vulputate magna vitae nibh convallis aliquam. Ut efficitur elit vitae felis pretium pretium. 
+							</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2 class="text-4xl">Nossos Produtos</h2>
+					<img src="images/produtos_1.jpeg" alt="Mel do Litoral" class="max-w-xl">
+					<img src="images/produtos_2.jpeg" alt="Mel do Litoral" class="max-w-xl">
+					<img src="images/produtos_3.jpeg" alt="Mel do Litoral" class="max-w-xl">
+					<p>Mel do Litoral<br>Adoçando a vida das pessoas</p>
+				</section>
+				<section>
+					<h2 class="text-4xl">Transparência</h2>
+					<p>Como uma instituição privada sem fins lucrativos a AAMC se compromete com a publicidade e transparência de todos os seus atos. Clique para fazer o download de nossos
+					documentos:</p>
+					<ul>
+						<li>Ata de eleição</li>
+						<li>Nosso Estatuto</li>
+						<li>Regulamento de Compras</li>
+						<li>Mostrar mais</li>
+					</ul>
+				</section>
+			</main>
+		</div>
+		<footer class="bg-rose-600 text-center py-4">
+			<section>
+				<p>AAMC
+					<br>Associação dos Apicultores e Meliponicultores do Cabo de Santo Agostinho
+					<br>CNPJ: 08.927.444/0001-89
+					<br>IE: 051527634
+				</p>			
+			</section>
+			
+			<section>			
+				<h3 class="bg-white/15">Endereço</h3>
+				<p>Engenho Novo, Loteamento Diper/Fidem, Lote 96 B
+				<br>Cabo de Santo Agostinho - PE, CEP 54515-070
+				</p>
+			</section>
+			
+			<section>
+				<h3 class="bg-white/15">Contatos Imediatos</h3>
+				<p>E-mail: a.a.m.c.meldolitoral@gmail.com
+					<br>Telefone: (81) 97502-1410
+				</p>
+			</section>
+			<p></p>
+		</footer>
     </body>
 </html>
