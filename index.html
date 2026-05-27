@@ -7,25 +7,34 @@
 		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
     <body class="font-sans">
-		<header class="sticky top-0 max-h-32 bg-orange-400 p-4">
-			<ul class="flex gap-4 justify-end">
-				<li>Início</li>
-				<li>Transparência</li>
-				<li>Contato</li>
-			</ul>
+		<header class="sticky top-0 max-h-32 bg-orange-400 px-4">
+			<div class="m-auto max-w-7xl">				
+				<!-- <ul class="flex gap-4 justify-end"> -->
+				<ul class="flex justify-end">
+					<!-- <li class="align-middle">Início</li> -->
+					<li class="hover:bg-orange-300">
+						<a class="h-12 px-4 cursor-pointer flex items-center">Início</a>
+					</li>
+					<li class="hover:bg-orange-300">
+						<a class="h-12 px-4 cursor-pointer flex items-center">Transparência</a>
+					</li>
+					<li class="hover:bg-orange-300">
+						<a class="h-12 px-4 cursor-pointer flex items-center">Contato</a>
+					</li>
+				</ul>
+			</div>
 		</header>
         <div class="m-auto max-w-7xl py-4">
 			
 			<main>
-				<section>
+				<section class="lg:text-lg xl:text-4xl">
 					<!-- <h2>Sobre Nós / Quem Somos</h2> -->
 					<p>A Associação dos Apicultores e Meliponicultores do Cabo de Santo Agostinho é uma instituição sem fins lucrativos responsável por representar os apicultores e meliponicultores da cidade do Cabo de Santo Agostinho.</p>
 					<img src="images/associacao_1.jpeg" alt="">
 					
-					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+					<div class="my-12 p-2 bg-amber-600 flex flex-col md:flex-row gap-2">
 						<img src="images/associacao_2.jpeg" alt="" class="max-w-xl m-auto">
-						<div class="grow bg-red-300 p-2">
-							<h3>Lorem Ipsum</h3>
+						<div class="grow bg-amber-300 p-2">
 							<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet lorem sed eros posuere tempus posuere eu nibh. Morbi semper, lectus ut faucibus lacinia, 
 							turpis enim fringilla magna, non tempor lectus felis nec sapien. Aliquam ut odio quis est ultrices tincidunt. Donec accumsan, quam ut consequat imperdiet, 
@@ -37,10 +46,9 @@
 						</div>
 					</div>
 					
-					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+					<div class="my-12 p-2 bg-amber-600 flex flex-col md:flex-row gap-2">
 						<img src="images/associacao_3.jpeg" alt="" class="max-w-xl m-auto">
-						<div class="grow bg-red-300 p-2 md:-order-1">
-							<h3>Lorem Ipsum</h3>
+						<div class="grow bg-amber-300 p-2 md:-order-1">
 							<p>
 							Sed euismod accumsan tincidunt. In hac habitasse platea dictumst. Nulla cursus sollicitudin quam ac commodo. Morbi tempus, sem quis fringilla semper, sem tortor
 							auctor nibh, a ullamcorper justo erat id ex. Sed et elementum tellus. Phasellus nec turpis libero. Sed quis est dapibus augue volutpat ultrices. Nam ornare leo
@@ -50,10 +58,9 @@
 						</div>
 					</div>
 					
-					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+					<div class="my-12 p-2 bg-amber-600 flex flex-col md:flex-row gap-2">
 						<img src="images/associacao_4.jpeg" alt="" class="max-w-xl m-auto">
-						<div class="grow bg-red-300 p-2">
-							<h3>Lorem Ipsum</h3>
+						<div class="grow bg-amber-300 p-2">
 							<p>
 							Nunc et condimentum neque, non tempus orci. Praesent sit amet magna aliquam, convallis ligula non, semper velit. Sed in velit vitae tellus commodo semper ut
 							vel nibh. Donec mauris lacus, tincidunt id tortor sit amet, accumsan venenatis velit. Ut sit amet nulla non arcu facilisis tempus. Sed turpis lectus, efficitur
@@ -63,10 +70,9 @@
 						</div>
 					</div>
 					
-					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+					<div class="my-12 p-2 bg-amber-600 flex flex-col md:flex-row gap-2">
 						<img src="images/associacao_5.jpeg" alt="" class="max-w-xl m-auto">
-						<div class="grow bg-red-300 p-2 md:-order-1">
-							<h3>Lorem Ipsum</h3>
+						<div class="grow bg-amber-300 p-2 md:-order-1">
 							<p>
 							Nullam sollicitudin aliquet risus eu imperdiet. Praesent gravida tempus orci nec pellentesque. Proin condimentum orci sed nibh dapibus, vitae gravida mi
 							pellentesque. Suspendisse ullamcorper viverra risus, in tristique erat pretium malesuada. In hac habitasse platea dictumst. Proin sit amet erat dapibus, 
@@ -75,10 +81,9 @@
 						</div>
 					</div>
 					
-					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+					<div class="my-12 p-2 bg-amber-600 flex flex-col md:flex-row gap-2">
 						<img src="images/associacao_6.jpeg" alt="" class="max-w-xl m-auto">
-						<div class="grow bg-red-300 p-2">
-							<h3>Lorem Ipsum</h3>
+						<div class="grow bg-amber-300 p-2">
 							<p>
 							Integer nibh libero, dapibus tempus vestibulum ac, tincidunt vitae odio. Suspendisse venenatis enim sit amet accumsan rutrum. Fusce facilisis congue enim, 
 							vel lobortis turpis mollis vitae. Phasellus porttitor molestie sodales. Maecenas fermentum ipsum risus, ut ornare ipsum congue malesuada. Nulla et mollis leo. 
@@ -88,10 +93,9 @@
 						</div>
 					</div>
 					
-					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+					<div class="my-12 p-2 bg-amber-600 flex flex-col md:flex-row gap-2">
 						<img src="images/associacao_7.jpeg" alt="" class="max-w-xl m-auto">
-						<div class="grow bg-red-300 p-2 md:-order-1">
-							<h3>Lorem Ipsum</h3>
+						<div class="grow bg-amber-300 p-2 md:-order-1">
 							<p>
 							Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras sodales pretium arcu quis ultricies. Cras in volutpat elit, 
 							sit amet facilisis arcu. Curabitur feugiat tristique ante, vel lacinia est fermentum a. Donec quis nisl tempor, feugiat lorem a, pharetra leo. Vestibulum 
@@ -102,10 +106,9 @@
 						</div>
 					</div>
 					
-					<div class="my-2 p-2 bg-red-600 flex flex-col md:flex-row gap-2">
+					<div class="my-12 p-2 bg-amber-600 flex flex-col md:flex-row gap-2">
 						<img src="images/associacao_8.jpeg" alt="" class="max-w-xl m-auto">
-						<div class="grow bg-red-300 p-2">
-							<h3>Lorem Ipsum</h3>
+						<div class="grow bg-amber-300 p-2">
 							<p>
 							Sed nec ornare magna. Nam sollicitudin a ipsum vel fermentum. Nullam tempor eu sapien non volutpat. Nulla at leo quis lectus mollis efficitur. 
 							Nulla in eros non sem luctus malesuada non sed erat. Phasellus sagittis mattis lobortis. Phasellus fermentum urna nec massa ultricies, in viverra nunc 
@@ -126,11 +129,11 @@
 					<h2 class="text-4xl">Transparência</h2>
 					<p>Como uma instituição privada sem fins lucrativos a AAMC se compromete com a publicidade e transparência de todos os seus atos. Clique para fazer o download de nossos
 					documentos:</p>
-					<ul>
-						<li>Ata de eleição</li>
-						<li>Nosso Estatuto</li>
-						<li>Regulamento de Compras</li>
-						<li>Mostrar mais</li>
+					<ul class="text-blue-700 list-disc px-4">
+						<li><a class="hover:underline cursor-pointer">Ata de eleição</a></li>
+						<li><a class="hover:underline cursor-pointer">Nosso Estatuto</a></li>
+						<li><a class="hover:underline cursor-pointer">Regulamento de Compras</a></li>
+						<li><a class="hover:underline cursor-pointer">Mostrar mais</a></li>
 					</ul>
 				</section>
 			</main>
