@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.painel-informativo {
+    @apply my-12 flex flex-col md:flex-row gap-4 items-center;
+}
+
+.painel-informativo-img-container {
+    @apply w-full md:w-1/3 shrink-0 aspect-4/3 relative overflow-hidden rounded bg-black shadow-md;
+}
+
+.painel-informativo-img-1 {
+    @apply absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-60;
+}
+
+.painel-informativo-img-2 {
+    @apply absolute inset-0 w-full h-full object-contain z-10;
+}
+
+.painel-informativo-text-container {
+    @apply grow bg-amber-300 p-4 self-stretch;
+}
