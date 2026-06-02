@@ -6,6 +6,7 @@
 		<meta name="description" content="Portal oficial da Associação dos Apicultores e Meliponicultores do Litoral. Informações, transparência, estatutos e fomento à apicultura regional.">
         <title>AAMC - Associação dos Apicultores e Meliponicultores do Cabo</title>
 		<link rel="stylesheet" href="output.css">
+		<script src="index.js" defer></script>
     </head>
     <body class="font-sans">
 		<header class="sticky z-100 top-0 max-h-32 bg-orange-400 px-4">
@@ -125,24 +126,40 @@
 				<section id="Nossos_Produtos" class="pt-6">
 					<h2 class="text-4xl my-6">Nossos Produtos</h2>
 
-					<div class="m-auto w-full md:w-1/2 aspect-video relative overflow-hidden rounded bg-black shadow-md">
-						<img src="images/produtos_1.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-60">
-						<img src="images/produtos_1.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-contain z-10">
+					<div class="m-auto w-full md:w-1/2 aspect-video overflow-hidden relative rounded shadow-md group">
+						<div id="esteira-carrossel" class="flex w-full h-full transition-transform duration-500 ease-in-out">
+							<div class="slide-card w-full h-full flex-shrink-0 relative bg-black">
+								<img src="images/produtos_1.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-60">
+								<img src="images/produtos_1.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-contain z-10">
+							</div>
+		
+							<div class="slide-card w-full h-full flex-shrink-0 relative bg-black">
+								<img src="images/produtos_2.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-60">
+								<img src="images/produtos_2.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-contain z-10">
+		
+							</div>
+		
+							<div class="slide-card w-full h-full flex-shrink-0 relative bg-black">
+								<img src="images/produtos_3.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-60">
+								<img src="images/produtos_3.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-contain z-10">
+		
+							</div>
+						</div>
+
+						<!-- BOTÕES DE NAVEGAÇÃO (Ficam absolutos em relação ao container principal) -->
+						<button id="btn-anterior" class="absolute left-3 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/80 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
+							&#10094;
+						</button>
+						<button id="btn-proximo" class="absolute right-3 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/80 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">
+							&#10095;
+						</button>
+
 					</div>
 
-					<div class="m-auto w-full md:w-1/2 aspect-video relative overflow-hidden rounded bg-black shadow-md">
-						<img src="images/produtos_2.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-60">
-						<img src="images/produtos_2.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-contain z-10">
-
-					</div>
-
-					<div class="m-auto w-full md:w-1/2 aspect-video relative overflow-hidden rounded bg-black shadow-md">
-						<img src="images/produtos_3.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-60">
-						<img src="images/produtos_3.jpeg" alt="Mel do Litoral" class="absolute inset-0 w-full h-full object-contain z-10">
-
-					</div>
 
 					<p>Mel do Litoral<br>Adoçando a vida das pessoas</p>
+
+	
 				</section>
 				<section id="Transparencia" class="pt-6">
 					<h2 class="text-4xl my-6">Transparência</h2>
