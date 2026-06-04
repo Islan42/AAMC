@@ -17,5 +17,5 @@
 }
 
 .painel-informativo-text-container {
-    @apply grow bg-amber-300 p-4 self-stretch;
+    @apply grow bg-amber-300 p-4 self-stretch text-justify sm:text-xl md:text-2xl ;
 }
