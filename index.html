@@ -6,10 +6,10 @@
 		<meta name="description" content="Portal oficial da Associação dos Apicultores e Meliponicultores do Litoral. Informações, transparência, estatutos e fomento à apicultura regional.">
         <title>AAMC - Associação dos Apicultores e Meliponicultores do Cabo</title>
 		<link rel="icon" type="image/x-icon" href="favicon.png">
-		<link rel="stylesheet" href="output.css">
-		<script src="index.js" defer></script>
+		<link rel="stylesheet" href="src/output.css">
+		<script src="src/index.js" defer></script>
     </head>
-    <body class="font-sans">
+    <body class="font-sans flex flex-col h-screen">
 		<header class="sticky z-100 top-0 md:max-h-32 bg-orange-400 px-4">
 			<div class="m-auto max-w-7xl flex flex-col md:flex-row md:items-stretch">				
 				
@@ -20,23 +20,23 @@
 				</div>
 				
 				<ul class="text-center flex flex-col md:flex-row justify-end">
-					<!-- <li class="align-middle">Início</li> -->
 					<li class="hover:bg-orange-300">
-						<a href="#Inicio" class="h-full px-4 cursor-pointer flex justify-center items-center">Início</a>
+						<a href="index.html" class="h-full px-4 cursor-pointer flex justify-center items-center">Início</a>
 					</li>
 					<li class="hover:bg-orange-300">
-						<a href="#Nossos_Produtos" class="h-full px-4 cursor-pointer flex justify-center items-center">Galeria</a>
+						<a href="galeria.html" class="h-full px-4 cursor-pointer flex justify-center items-center">Galeria</a>
 					</li>
 					<li class="hover:bg-orange-300">
-						<a href="#Transparencia" class="h-full px-4 cursor-pointer flex justify-center items-center">Transparência</a>
+						<a href="transparencia.html" class="h-full px-4 cursor-pointer flex justify-center items-center">Transparência</a>
 					</li>
 					<li class="hover:bg-orange-300">
-						<a class="h-full px-4 cursor-pointer flex justify-center items-center">Contato</a>
+						<a href="contatos.html" class="h-full px-4 cursor-pointer flex justify-center items-center">Contato</a>
 					</li>
 				</ul>
 			</div>
 		</header>
-		<main>
+		
+		<main class="grow self-stretch">
         	<div class="m-auto max-w-7xl py-4">
 				<section id="Inicio" class="pt-6">
 
@@ -185,27 +185,9 @@
 
 	
 				</section>
-				<section id="Transparencia" class="pt-6">
-					<h2 class="text-4xl my-6">Transparência</h2>
-					<p>Como uma instituição privada sem fins lucrativos a AAMC se compromete com a publicidade e transparência de todos os seus atos. Clique para fazer o download de nossos
-					documentos:</p>
-					<ul class="text-blue-700 list-disc px-4">
-						<li>
-							<a href="./documentos/Relacao_Nominal_Dirigentes_AAMC.pdf" download filename="Ata de Eleição - AAMC" class="hover:underline cursor-pointer">Ata de eleição</a>
-						</li>
-						<li>
-							<a href="./documentos/REFORMA_DO_ESTATUTO_25_02_2008.pdf" download class="hover:underline cursor-pointer">Nosso Estatuto</a>
-						</li>
-						<li>
-							<a href="./documentos/Regulamento_de_Compras_AAMC.pdf" download class="hover:underline cursor-pointer">Regulamento de Compras</a>
-						</li>
-						<li>
-							<a href="https://drive.google.com/drive/folders/1sc0VFJcPKxPqoSwqYQc0LfBcT8CpuP2k?usp=drive_link" target="_blank" class="hover:underline cursor-pointer">Mostrar mais</a>
-						</li>
-					</ul>
-				</section>
 			</div>
 		</main>
+		
 		<footer class="bg-rose-600 text-center py-4">
 			<section>
 				<p>AAMC
@@ -228,7 +210,6 @@
 					<br>Telefone: (81) 97502-1410
 				</p>
 			</section>
-			<p></p>
 		</footer>
     </body>
 </html>
