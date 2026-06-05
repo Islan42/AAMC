@@ -40,8 +40,24 @@
 		<main class="grow self-stretch">
 			<section class="m-auto max-w-7xl py-4 ">
 				<h2 class="text-4xl">Galeria</h2>
-				<div id="grade-galeria" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+				<div id="grade-galeria" class="py-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 					<p>Nenhuma imagem.</p>
+				</div>
+				
+				<div id="modal-carrossel" class="hidden fixed inset-0 w-screen h-screen z-200 items-center justify-center bg-black/90 backdrop-blur-sm p-4">					
+					<button id="fechar-modal" class="absolute z-300 top-6 right-6 text-white text-4xl hover:text-mel-principal font-bold cursor-pointer">&times;</button>
+
+					<div class="m-auto w-full md:w-2/3 aspect-video overflow-hidden relative rounded shadow-2xl group max-w-5xl">
+						
+						<div id="esteira-modal" class="flex w-full h-full transition-transform duration-500 ease-in-out"></div>
+
+						<button id="modal-anterior" class="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-mel-principal/80 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl cursor-pointer">
+							&#10094;
+						</button>
+						<button id="modal-proximo" class="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-mel-principal/80 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl cursor-pointer">
+							&#10095;
+						</button>
+					</div>
 				</div>
 			</section>
 			
