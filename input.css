@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+    --color-mel-principal: #F6A623;
+    --color-mel-suave: #FFF4E0;
+    --color-abelha-escuro: #1E1B18;
+    --color-verde-mata: #1A4314;
+    --color-vinho: #5C131E;
+}
+
 .painel-informativo {
     @apply my-12 flex flex-col md:flex-row gap-4 items-center;
 }
