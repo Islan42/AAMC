@@ -5,6 +5,8 @@
     --color-mel-suave: #FFF4E0;
     --color-abelha-escuro: #1E1B18;
     --color-verde-mata: #1A4314;
+    --color-verde-folha: #2E6F25;
+    --color-verde-musgo: #447A3F;
     --color-vinho: #5C131E;
 }
 
@@ -25,5 +27,5 @@
 }
 
 .painel-informativo-text-container {
-    @apply grow bg-amber-300 p-4 self-stretch text-justify sm:text-xl md:text-2xl ;
+    @apply grow bg-mel-principal p-4 self-stretch text-justify sm:text-xl md:text-2xl ;
 }
